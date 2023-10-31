@@ -1,0 +1,2 @@
+# Writing Streamed data on txt file
+wscat -c wss://stream.binance.com:9443/ws/btcusdt@kline_5m | tee dataset.txt
