@@ -27,7 +27,7 @@ todate = datetime.datetime.strptime('2020-07-12','%Y-%m-%d')
 
 
 # Load historical data and trade on 15MIN timeframe. Zoom on fromdate to startdate
-data = bt.feeds.GenericCSVData(dataname='BTC_data.csv', dtformat=2, compression=15, timeframe = bt.TimeFrame.Minutes, fromdate= fromdate, todate=tod)
+data = bt.feeds.GenericCSVData(dataname='BTC_data.csv', dtformat=2, compression=15, timeframe = bt.TimeFrame.Minutes, fromdate= fromdate, todate=todate)
 
 # Add the historical data to the 'Cerebro' instance for analysis.
 cerebro.adddata(data)
