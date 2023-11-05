@@ -3,8 +3,8 @@ from datetime import datetime, date
 import requests
 
 
-start_date = date(2020, 1, 1)
-end_date = date(2023, 9, 30)
+start_date = date(2023, 10, 1)
+end_date = date(2023, 10, 31)
 
 
 def get_fear_and_greed_index(start_date,end_date):
@@ -15,7 +15,7 @@ def get_fear_and_greed_index(start_date,end_date):
 
     limit = days_diff_start - days_diff_end
 
-    url = f"https://api.alternative.me/fng/?limit={days_diff_start}&format=json"
+    url = f"https://api.alternative.me/fng/?limit={days_diff_start}&format=json&date_format=kr"
     response = requests.get(url)
     data = response.json()['data']
 
@@ -41,3 +41,24 @@ def get_fear_and_greed_index(start_date,end_date):
 
 
 get_fear_and_greed_index(start_date=start_date,end_date=end_date)
+
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the data from the CSV file
+df = pd.read_csv('fear_and_greed_data.csv', parse_dates=['date'])
+
+# Create a line plot of the Fear and Greed Index
+plt.figure(figsize=(10, 6))
+plt.plot(df['date'], df['fear and greed index'], label='Fear and Greed Index', marker='o', linestyle='-')
+plt.xlabel('Date')
+plt.ylabel('Fear and Greed Index')
+plt.title('Fear and Greed Index Over Time')
+plt.grid(True)
+plt.legend()
+plt.xticks(rotation=45)
+
+# Show the plot
+plt.show()
