@@ -41,10 +41,6 @@ def get_fear_and_greed_index(start_date,end_date):
     print(f'{days_diff_start} most recent Fear and Greed data points (from {days_diff_end} to {days_diff_start}) saved to {csv_file_name}')
 
 
-get_fear_and_greed_index(start_date=start_date,end_date=end_date)
-
-
-
 def plot_fear_and_greed_data(csv_file_name):
     # Load the data from the CSV file
     df = pd.read_csv(csv_file_name, parse_dates=['date'])
@@ -62,5 +58,9 @@ def plot_fear_and_greed_data(csv_file_name):
     # Show the plot
     plt.show()
 
-# Usage of the function
+
+# Creating csv file of Fear & Greed Index
+get_fear_and_greed_index(start_date=start_date,end_date=end_date)
+
+# Plotting Fear & Greed Index
 plot_fear_and_greed_data('fear_and_greed_data.csv')
