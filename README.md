@@ -19,5 +19,17 @@
 - **AlgoTrading.py** : Functions for adjusting orders (TPSL, leverage) and checking remaining balance.
 - **TechnicalAnalysis.py** : For checking and testing SMA and RSI values
 - **bot.py** : Live trading with simple RSI strategy
+</br></br></br>
 
+## Must Work on
+- [ ] Collecting Fear & Greed Index
+- [ ] Creating trading strategy based on Fear & Greed Index
+- [ ] Back/forwardtesting Fear & Greed Index trading strategy
+
+As I study more about crypto market and algotrading, it seems like there's alot of requirement for guaranteed profits.
+So I'm planning to create crypto arbitrage trading algorithm first to generate profit, and come back to this project for additional profits. 
+
+The reason for doing so is :
+- Algorthmic trading doesn't generate any profit until a profitable strategy is found
+- Arbitrage trading provides guaranteed profits as long as you can transfer to another exchange and sell very quickly.
 
