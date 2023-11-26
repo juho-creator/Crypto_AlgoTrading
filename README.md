@@ -26,7 +26,7 @@
 - [ ] Creating trading strategy based on Fear & Greed Index
 - [ ] Back/forwardtesting Fear & Greed Index trading strategy
 
-As I study more about crypto market and algotrading, it seems like there's alot of requirement for guaranteed profits.
+As I study more about crypto market and algotrading, it seems like there's alot of requirement for guaranteed profits. </br>
 So I'm planning to create crypto arbitrage trading algorithm first to generate profit, and come back to this project for additional profits. 
 
 The reason for doing so is :
