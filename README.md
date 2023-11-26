@@ -1,5 +1,5 @@
 # AlgoTrading
-- This code is from [Binance API Tutorial by Part Time Larry](https://www.youtube.com/watch?v=rvhnz1yBHgQ&list=PLvzuUVysUFOuB1kJQ3S2G-nB7_nHhD7Ay) </br>
+- This code is from [Binance API Tutorial series by Part Time Larry](https://www.youtube.com/watch?v=rvhnz1yBHgQ&list=PLvzuUVysUFOuB1kJQ3S2G-nB7_nHhD7Ay) </br>
 - Code is organized with more functionality for ease of use. </br></br></br>
 
 
