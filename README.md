@@ -1,3 +1,6 @@
+# [KOREAN README](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README%20(KR).md)
+
+
 # Crypto AlgoTrading
 - This code is from [Binance API Tutorial series by Part Time Larry](https://www.youtube.com/watch?v=rvhnz1yBHgQ&list=PLvzuUVysUFOuB1kJQ3S2G-nB7_nHhD7Ay)
 - After collecting BTC price data, you could backtest and forward test based on RSI strategy
