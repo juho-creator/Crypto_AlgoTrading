@@ -2,7 +2,7 @@
 
 
 # Crypto AlgoTrading
-- This code is from [Binance API Tutorial series by Part Time Larry](https://www.youtube.com/watch?v=rvhnz1yBHgQ&list=PLvzuUVysUFOuB1kJQ3S2G-nB7_nHhD7Ay)
+- Following was developed based on code from  [Binance API Tutorial series by Part Time Larry](https://www.youtube.com/watch?v=rvhnz1yBHgQ&list=PLvzuUVysUFOuB1kJQ3S2G-nB7_nHhD7Ay)
 - After collecting BTC price data, you could backtest and forward test based on RSI strategy
 - Code is organized with more functionality for ease of use. </br></br></br>
 
