@@ -22,7 +22,7 @@
 </br></br></br>
 
 ## 진행해야 할 작업
-- [X] [Fear & Greed 지수 수집](https://github.com/juho-creator/fear_greed/blob/main/dataCreator.py)
+- [X] [공포탐욕 지수 수집](https://github.com/juho-creator/fear_greed/blob/main/dataCreator.py)
 - [ ] Fear & Greed 지수를 기반으로 한 트레이딩 전략 생성
 - [ ] Fear & Greed 지수 트레이딩 전략의 백테스트 및 포워드 테스트
 
