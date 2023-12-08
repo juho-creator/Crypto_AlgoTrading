@@ -1,2 +1,10 @@
 # Writing Streamed data on txt file
-wscat -c wss://stream.binance.com:9443/ws/btcusdt@kline_5m | tee "C:\Users\me\Desktop\ppt_template\dataset.txt"
+
+
+# 1. Binance
+wscat -c wss://stream.binance.com:9443/ws/btcusdt@kline_5m | tee "C:\Users\me\Desktop\ppt_template\Binance.txt"
+
+# 2. Upbit 
+wscat -c wss://api.upbit.com/websocket/v1 | tee "C:\Users\me\Desktop\ppt_template\Upbit.txt"
+[{"ticket":"test"},{"type":"ticker","codes":["KRW-BTC"]}]   #  parameter values
+
