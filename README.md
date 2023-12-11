@@ -30,7 +30,7 @@
 - [ ] Back/forwardtesting Fear & Greed Index trading strategy
 
 As I study more about crypto market and algotrading, it seems like there's alot of requirement for guaranteed profits. </br>
-Currrently, I'm keeping project on hold and creating crypto arbitrage trading algorithm instead (personal project - Not shared yet)
+Currrently, I'm keeping this project on hold and creating crypto arbitrage trading algorithm instead (personal project - Not shared yet)
 
 
 The reason for doing so is :
