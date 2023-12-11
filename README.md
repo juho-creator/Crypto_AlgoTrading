@@ -30,11 +30,11 @@
 - [ ] Back/forwardtesting Fear & Greed Index trading strategy
 
 As I study more about crypto market and algotrading, it seems like there's alot of requirement for guaranteed profits. </br>
-Currently I'm creating crypto arbitrage trading algorithm to generate profit (personal project - Not shared yet)
-I will come back to this project for additional profits. 
+Currrently, I'm keeping project on hold and creating crypto arbitrage trading algorithm instead (personal project - Not shared yet)
+
 
 The reason for doing so is :
 - Algorthmic trading doesn't generate any profit until a profitable strategy is found
 - Arbitrage trading provides guaranteed profits if the program could detect price difference across exchanges and quickly transfer crypto and sell at a higher price.
 
-
+Once I'm able to generate guaranteed profits with arbitrage trading algorithm, I will come back to this project for additional profits
