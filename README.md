@@ -35,6 +35,6 @@ I will come back to this project for additional profits.
 
 The reason for doing so is :
 - Algorthmic trading doesn't generate any profit until a profitable strategy is found
-- Arbitrage trading provides guaranteed profits as long as you can transfer to another exchange and sell very quickly.
+- Arbitrage trading provides guaranteed profits if the program could detect price difference across exchanges and quickly transfer crypto and sell at a higher price.
 
 
