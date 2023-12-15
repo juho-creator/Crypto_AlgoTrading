@@ -1,4 +1,4 @@
-# [KOREAN README](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README%20(KR).md)
+# [한국어 README](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README%20(KR).md)
 
 
 # Crypto AlgoTrading
