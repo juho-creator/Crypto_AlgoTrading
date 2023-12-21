@@ -12,7 +12,7 @@ from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
 client = Client(config.API_KEY, config.API_SECRET)
 
 # Get market depth (1 Hour Candle) (9am~9am)d
-candles = client.get_historical_klines("BTCUSDT", Client.KLINE_INTERVAL_1DAY, "1 Jan, 2020", "31 Oct 2023")
+candles = client.get_historical_klines("BTCUSDT", Client.KLINE_INTERVAL_1DAY, "1 Jan, 2020", "31 Oct, 2023")
 
 # Open CSV File
 csvfile = open('BTC_data.csv', 'w', newline='')
