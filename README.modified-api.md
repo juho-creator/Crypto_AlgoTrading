@@ -8,4 +8,7 @@ To overcome this limitation, I adopted a new approach:
 </br></br>
 
 # Diagram
-![Modified API Request](https://github.com/juho-creator/Crypto_AlgoTrading/assets/72856990/abb0fb56-7b32-4431-b74d-d5f9d8e19c18)
+
+![image](https://github.com/juho-creator/Crypto_AlgoTrading/assets/72856990/16a15404-f58e-48aa-8846-5a816d33e272)
+
+
