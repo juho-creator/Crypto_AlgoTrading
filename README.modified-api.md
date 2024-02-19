@@ -1,5 +1,5 @@
 # Modifying API Request
-Unfortunately, Alternative.me does not support API requests for specific timeframes. </br>
+Unfortunately, [Alternative.me](https://alternative.me/crypto/fear-and-greed-index/#api) does not support API requests for specific timeframes. </br>
 Instead, we can only retrieve data for a certain number of days until the end date.</br>
 To overcome this limitation, we adopted a new approach:
 1. Calculate the number of days within the desired timeframe.
