@@ -13,6 +13,7 @@
 - **back_test.py** : Backtest simple RSI strategy over price history collected from get_data.py
 - **config.py** : Your Binance Credentials (API KEY)
 - **wscat** : wscat command for collecting price data from binance websocket
+- **fear_and_greed_index** : Creates a CSV file and graph for the fear and greed index over a specific time period.
 </br></br>
 
 ### Live Chart
