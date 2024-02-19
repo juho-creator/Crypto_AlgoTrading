@@ -1,9 +1,10 @@
 # Modifying API Request
-Unfortunately, [Alternative.me](https://alternative.me/crypto/fear-and-greed-index/#api) does not support API requests for specific timeframes. </br>
+Unfortunately, [Alternative.me](https://alternative.me/crypto/fear-and-greed-index/#api) does not support API requests for specific timeframes. </br></br>
 Instead, we can only retrieve data for a certain number of days until the end date.</br>
 To overcome this limitation, I adopted a new approach:
 1. Calculate the number of days within the desired timeframe.
-2. Fetch data from the API request for the calculated number of days until the end date.
+2. Fetch data from the API request for the calculated number of days until the end date. </br></br>
+This allows us to obtain fear and greed index over certain timeframes.
 
 </br></br>
 
