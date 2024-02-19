@@ -11,4 +11,4 @@
 </br>
 
 # 다이어그램
-![수정된 API 요청](https://github.com/juho-creator/Crypto_AlgoTrading/assets/72856990/abb0fb56-7b32-4431-b74d-d5f9d8e19c18)
+![image](https://github.com/juho-creator/Crypto_AlgoTrading/assets/72856990/2eae6a0e-b671-44fe-9874-ed8c3c3c17cc)
