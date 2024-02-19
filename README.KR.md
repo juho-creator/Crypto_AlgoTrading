@@ -1,4 +1,4 @@
-[![English](https://img.shields.io/badge/lang-English-blue.svg)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/main/README.md)
+[![English](https://img.shields.io/badge/lang-English-blue.svg)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README.md)
 
 # 암호화폐 트레이딩 알고리즘
 
