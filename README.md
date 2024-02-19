@@ -13,7 +13,7 @@
 - **back_test.py** : Backtest simple RSI strategy over price history collected from get_data.py
 - **config.py** : Your Binance Credentials (API KEY)
 - **wscat** : wscat command for collecting price data from binance websocket
-- **fear_and_greed_index** : Creates a CSV file and graph for the fear and greed index over a specific time period.</br>
+- **fear_and_greed_index.py** : Creates a CSV file and graph for the fear and greed index over a specific time period.</br>
 [(Click here to read more about how API request was modified)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README.modified-api.md)
 </br></br>
 
@@ -33,7 +33,8 @@
 - [ ] Back/forwardtesting Fear & Greed Index trading strategy
 
 As I study more about crypto market and algotrading, it seems like there's alot of requirement for guaranteed profits. </br>
-Currrently, I'm keeping this project on hold and creating crypto arbitrage trading algorithm instead (personal project - Not shared yet)
+Currrently, I'm keeping this project on hold and creating crypto arbitrage trading algorithm instead. </br>
+(personal project - Not shared yet)
 
 
 The reason for doing so is :
