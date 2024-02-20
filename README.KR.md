@@ -27,7 +27,7 @@
 </br></br></br>
 
 ## 현재 진행 상황
-- [X] [공포탐욕 지수 수집](https://github.com/juho-creator/fear_greed/blob/main/dataCreator.py)
+- [X] [공포탐욕 지수 수집](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/DataCollection/fear_and_greed_index.py)
 - [ ] Fear & Greed 지수를 기반으로 한 트레이딩 전략 생성
 - [ ] Fear & Greed 지수 트레이딩 전략의 백테스트 및 포워드 테스트
 
