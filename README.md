@@ -28,7 +28,7 @@
 </br></br></br>
 
 ## Must Work on
-- [X] [Collecting Fear & Greed Index](https://github.com/juho-creator/fear_greed/blob/main/dataCreator.py)
+- [X] [Collecting Fear & Greed Index](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/DataCollection/fear_and_greed_index.py)
 - [ ] Creating trading strategy based on Fear & Greed Index
 - [ ] Back/forwardtesting Fear & Greed Index trading strategy
 
