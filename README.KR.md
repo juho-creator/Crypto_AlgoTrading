@@ -11,7 +11,7 @@
 - **back_test.py** : get_data.py에서 수집한 가격 데이터(CSV파일)를 사용하여 간단한 RSI 전략을 백테스팅
 - **config.py** : 바이낸스 API키 
 - **wscat** : 바이낸스/업비트 웹소켓에서 실시갼 가격 데이터 수집을 위한 wscat 명령어
-- **fear_and_greed_index**: 특정 기간 동안의 공포 탐욕 지수에 대한 CSV 파일과 그래프를 생성합니다. </br>
+- **fear_and_greed_index**: 특정 기간 동안의 공포 탐욕 지수를 CSV 파일과 그래프로 생성 </br>
 [(API 요청이 어떻게 변형됬는지 자세히 읽으려면 여기를 클릭하세요)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README.modified-api.KR.md)
 
 </br></br>
