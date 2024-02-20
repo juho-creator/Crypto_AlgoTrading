@@ -1,6 +1,6 @@
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README.md)
 
-# 암호화폐 트레이딩 알고리즘
+# 암호화폐 자동매매 알고리즘
 
 - 이 코드는 [파트 타임 래리의 바이낸스 API 튜토리얼 시리즈](https://www.youtube.com/watch?v=rvhnz1yBHgQ&list=PLvzuUVysUFOuB1kJQ3S2G-nB7_nHhD7Ay)를 기반으로 개발됬습니다.
 - BTC 가격 데이터를 수집한 후 RSI 전략에 기반한 백테스트 및 포워드 테스트를 수행할 수 있습니다.
@@ -16,7 +16,7 @@
 
 </br></br>
 
-### 라이브 차트
+### 실시간 차트
  - 비트코인의 실시간 가격 차트를 표시하기 위한 Flask
 </br></br></br>
 
@@ -26,7 +26,7 @@
 - **bot.py** : 간단한 RSI 전략으로 실시간 트레이딩
 </br></br></br>
 
-## 진행해야 할 작업
+## 현재 진행 상황
 - [X] [공포탐욕 지수 수집](https://github.com/juho-creator/fear_greed/blob/main/dataCreator.py)
 - [ ] Fear & Greed 지수를 기반으로 한 트레이딩 전략 생성
 - [ ] Fear & Greed 지수 트레이딩 전략의 백테스트 및 포워드 테스트
