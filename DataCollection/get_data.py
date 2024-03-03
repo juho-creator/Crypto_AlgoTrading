@@ -1,43 +1,44 @@
-import config,csv
-from pprint import pprint
-from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
+import csv
+import datetime
+from binance import Client
+import config
 
 
-#### DISCLAIMER
-##  FOLLOWING DATA IS FROM SPOT 
-## MAY NOT INCLUDE THE MOST UP TO DATE DATA
+def fetch_and_save_candlestick_data(symbol, interval, start_date, end_date, output_file):
+    # Initialize Binance client
+    client = Client(config.API_KEY, config.API_SECRET)
+
+    # Get candlestick data
+    candles = client.get_historical_klines(symbol, interval, start_date, end_date)
+
+    # Open CSV file
+    with open(output_file, 'w', newline='') as csvfile:
+        candlestick_writer = csv.writer(csvfile, delimiter=',')
+
+        # Write header
+        candlestick_writer.writerow([
+            "Kline open time",
+            "Open price",
+            "High price",
+            "Low price",
+            "Close price",
+            "Volume",
+            "Kline Close time",
+            "Quote asset volume",
+            "Number of trades",
+            "Taker buy base asset volume",
+            "Taker buy quote asset volume",
+            "Unused field, ignore"
+        ])
+
+        # Write candlestick data
+        for candlestick in candles:
+            timestamp = candlestick[0] / 1000
+            dt_object = datetime.datetime.fromtimestamp(timestamp)
+            formatted_date = dt_object.strftime('%Y-%m-%d')
+            candlestick[0] = formatted_date
+            candlestick_writer.writerow(candlestick)
 
 
-
-client = Client(config.API_KEY, config.API_SECRET)
-
-# Get market depth (1 Hour Candle) (9am~9am)d
-candles = client.get_historical_klines("BTCUSDT", Client.KLINE_INTERVAL_1DAY, "1 Jan, 2020", "31 Oct, 2023")
-
-# Open CSV File
-csvfile = open('BTC_data.csv', 'w', newline='')
-candlestick_writer = csv.writer(csvfile, delimiter=',')
-
-# Add header
-candlestick_writer.writerow([
-    "Kline open time",
-    "Open price",
-    "High price",
-    "Low price",
-    "Close price",
-    "Volume",
-    "Kline Close time",
-    "Quote asset volume",
-    "Number of trades",
-    "Taker buy base asset volume",
-    "Taker buy quote asset volume",
-    "Unused field, ignore"
-])
-
-# Write information
-for candlestick in candles:
-    candlestick[0] = candlestick[0] / 1000
-    candlestick_writer.writerow(candlestick)
-csvfile.close()
-
-
+# Example usage:
+fetch_and_save_candlestick_data("BTCUSDT", Client.KLINE_INTERVAL_1DAY, "1 Jan, 2020", "31 Oct, 2023", "BTC_data.csv")
