@@ -1,4 +1,6 @@
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README.md)
+[![汉语](https://img.shields.io/badge/lang-汉语-green.svg)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/main/README.CH.md)
+
 
 # 암호화폐 자동매매 알고리즘
 
