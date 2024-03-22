@@ -1,6 +1,6 @@
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README.md)
 [![한국어](https://img.shields.io/badge/lang-한국어-red.svg)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README.KR.md)
-[![汉语](https://img.shields.io/badge/lang-汉语-green.svg)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/main/README.CH.md)
+[![汉语](https://img.shields.io/badge/lang-汉语-green.svg)](https://github.com/juho-creator/Crypto_AlgoTrading/blob/master/README.CH.md)
 
 
 # Crypto AlgoTrading
